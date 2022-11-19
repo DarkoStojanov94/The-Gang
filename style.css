@@ -319,13 +319,13 @@ footer a:hover{
 }
 
 .popup .close{
-	width: 80px;
-	height: 80px;
+	width: 40px;
+	height: 40px;
 	background: #FF3300 url(img/close.png) no-repeat center center;
 	background-size: 70%;
 	position: absolute;
-	top: -40px;
-	right: -40px;
+	top: -20px;
+	right: -20px;
 	border-radius: 50%;
 	border: none;
 	outline: none;
