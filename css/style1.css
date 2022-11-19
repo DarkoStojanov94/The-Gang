@@ -28,11 +28,10 @@ h4{
 
 .hero-banner{
 	background-color: #007FFF;
-	min-height: 100vh;
+	height: 100vh;
 	padding: 50px 20px;
 	box-sizing: border-box;
 	position: relative;
-	overflow: hidden;
 }
 
 .hero-banner h1{
@@ -52,29 +51,24 @@ h4{
 }
 
 .character1{
-	background: url("img/circle-guy.png") no-repeat 0 0;
+	 background-image: url(../img/circle-guy.png) no-repeat 0 0;
 	background-size: 100%;
-	width: 363px;
-	height: 344px;
-	position: absolute; top: 10%; right: 8.8%;
-	transform: rotate(15deg);
+	width: 363;
+	height: 344;
+	position: absolute; top: 117px; right: 89px;
 }
 
 .character2{
-	background: url("img/hat-guy.png") no-repeat 0 0;
-	background-size: contain;
-	width:309px;
-	height:371px;
+	width: 309;
+	height: 371;
 	position: absolute; top: 213px; right: 277px;
 }
 
 
 .character3{
-	background: url(img/eish-guy.png) no-repeat 0 0;
-	background-size: contain;
-	width: 297px;
-	height: 286px;
-	position: absolute; bottom: 35%; right: 5%;
+	width: 297;
+	height: 286;
+	position: absolute; bottom: 74px; right: 109px;
 }
 
 
